@@ -36,3 +36,64 @@
     transform: rotate(360deg);
   }
 }
+
+/* =====================================================================
+ */
+
+.form{
+  width: 1070px;
+  margin: auto;
+  display: flex;
+   gap: 20px;
+  height: 40px;
+ }
+
+ .form input{
+  flex-basis: 80%;
+ }
+
+ .form button{
+  flex-basis: 20%;
+ }
+
+ .outerDiv{
+  width: 1070px;
+  margin: auto;
+  padding: 10px;
+  
+ }
+
+ .outerDiv ul{
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+
+
+ }
+
+ .outerDiv ul li {
+  padding: 10px;
+  background-color: rgba(94, 107, 88, 0.671);
+  position: relative;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: azure;
+  text-align: left;
+   letter-spacing:0.1vmin;
+   margin-bottom: 20px;
+ }
+
+ span{ 
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+ }
+
+ .line{
+  text-decoration: line-through;
+  color: blue !important;
+ }
+
+
